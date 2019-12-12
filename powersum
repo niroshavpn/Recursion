@@ -1,0 +1,9 @@
+def sum_of_powers(a,b):
+    if b<=0:
+        return 1
+    return a**b + sum_of_powers(a,b-1)
+a=int(input("Enter Number for a:"))
+b=int(input("Enter Number for b:"))
+
+
+print(sum_of_powers(a,b))
