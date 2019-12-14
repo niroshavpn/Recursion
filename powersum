@@ -7,3 +7,5 @@ b=int(input("Enter Number for b:"))
 
 
 print(sum_of_powers(a,b))
+
+#print(sum_of_powegitrs(a,b))
